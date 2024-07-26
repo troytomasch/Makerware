@@ -6,7 +6,7 @@ import image from "../assets/pic1.png";
 // Component for the home page
 const Home = () => {
   useEffect(() => {
-    document.title = "Makerwear";
+    document.title = "Maker Wear";
   }, []);
 
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row">
           <div className="max-w-xl m-8">
-            <p className="text-6xl my-6 font-bold">
+            <p className="text-6xl mb-6 font-bold">
               Discover Unique Style at Maker Wear
             </p>
             <p className="text-3xl my-6">Explore our exclusive collection</p>

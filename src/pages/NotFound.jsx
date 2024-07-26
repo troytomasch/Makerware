@@ -4,7 +4,7 @@ import Header from "../components/Header";
 // Not found page 404
 const NotFound = () => {
   useEffect(() => {
-    document.title = "Not found | Troy Tomasch";
+    document.title = "Not found | Maker wear";
   }, []);
 
   return (

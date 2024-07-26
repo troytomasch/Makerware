@@ -4,7 +4,7 @@ import Header from "../components/Header";
 // Component for the home page
 const Contact = () => {
   useEffect(() => {
-    document.title = "Makerwear";
+    document.title = "Contact | Maker Wear";
   }, []);
 
   return (

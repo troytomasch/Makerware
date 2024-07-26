@@ -18,7 +18,7 @@ const Header = ({ selected }) => {
 
   // Added CSS for hovering over the links
   const linkTextCSS =
-    "hover:text-green-300 transition transform hover:-translate-y-0.5";
+    "hover:text-green-300 transition transform hover:-translate-y-0.5 text-xl";
 
   // CSS for each link
   const linkCSS = "sm:m-5 m-1.5";
