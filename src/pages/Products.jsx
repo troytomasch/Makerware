@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 
-import image from "../assets/pic1.png";
+import { makerpantsFeature } from "../strings";
+import image from "../assets/pic9.png";
+import Footer from "../components/Footer";
 
-// Component for the home page
+// Component for the products page
 const Products = () => {
   useEffect(() => {
     document.title = "Products | Maker Wear";
@@ -17,7 +19,7 @@ const Products = () => {
         <div className="flex flex-row">
           <div className="max-w-xl m-8">
             <p className="text-6xl mb-6 font-bold">Maker Pants</p>
-            <p className="text-xl my-12">
+            <p className="text-xl my-4">
               The Maker Pants are a pair of one-size-fits-most adjustable
               overalls that can be worn overtop of clothing and put on without
               taking off your shoes. They are meant to protect people and their
@@ -26,6 +28,11 @@ const Products = () => {
               come in short, medium, and tall height variations. They are high
               quality and hand made in the US. Maker Pants feature:
             </p>
+            <ul className="list-disc mx-16">
+              {makerpantsFeature.map((bullet) => (
+                <li className="text-lg">{bullet}</li>
+              ))}{" "}
+            </ul>
           </div>
           <div className="max-w-xl">
             <img
@@ -35,6 +42,8 @@ const Products = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

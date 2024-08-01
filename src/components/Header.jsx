@@ -44,6 +44,8 @@ const Header = ({ selected }) => {
           <p className={linkTextCSS}>Contact</p>
         </Link>
       </div>
+
+      <div className="h-0 border-2 w-full rounded-sm m-2 border-green-100"></div>
     </div>
   );
 };

@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 import image from "../assets/prom.png";
+import Footer from "../components/Footer";
 
-// Component for the home page
+// Component for the about page
 const About = () => {
   useEffect(() => {
     document.title = "About | Maker Wear";
@@ -37,6 +38,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

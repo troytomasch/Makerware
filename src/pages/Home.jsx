@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 import image from "../assets/pic1.png";
+import Footer from "../components/Footer";
 
 // Component for the home page
 const Home = () => {
@@ -41,6 +42,8 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
