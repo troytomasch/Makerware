@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import Header from "../components/Header";
 
 import image from "../assets/prom.png";
+import Footer from "../components/Footer";
 
-// Component for the home page
+// Component for the about page
 const About = () => {
   useEffect(() => {
     document.title = "About | Maker Wear";
@@ -11,7 +12,7 @@ const About = () => {
 
   return (
     <div className="m-10">
-      <Header />
+      <Header selected={"about"} />
 
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row">
@@ -37,6 +38,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };
