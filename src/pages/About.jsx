@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <div className="m-10">
-      <Header />
+      <Header selected={"about"} />
 
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row">

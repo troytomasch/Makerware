@@ -3,6 +3,7 @@ import Header from "../components/Header";
 
 import image from "../assets/pic1.png";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 // Component for the home page
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
 
   return (
     <div className="m-10">
-      <Header />
+      <Header selected={"home"} />
 
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row">
@@ -33,6 +34,11 @@ const Home = () => {
               something for everyone. Embrace your style and elevate your
               wardrobe with Maker Wear.
             </p>
+            <Link to={"/products"}>
+              <button className="border-4 rounded-lg p-4 text-lg border-green-200 text-green-700">
+                Explore our collection
+              </button>
+            </Link>
           </div>
           <div className="max-w-xl">
             <img

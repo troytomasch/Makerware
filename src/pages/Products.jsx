@@ -13,7 +13,7 @@ const Products = () => {
 
   return (
     <div className="m-10">
-      <Header />
+      <Header selected={"products"} />
 
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row">

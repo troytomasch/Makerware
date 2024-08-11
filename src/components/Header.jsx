@@ -5,20 +5,23 @@ import logo from "../assets/logo.png";
 // Component for the navigation bar
 const Header = ({ selected }) => {
   let homeColor = null;
-  let resumeColor = null;
-  let projectsColor = null;
+  let productsColor = null;
+  let aboutColor = null;
+  let contactColor = null;
 
-  if (selected === "Home") {
-    homeColor = "text-white";
-  } else if (selected === "Resume") {
-    resumeColor = "text-white";
-  } else if (selected === "Projects") {
-    projectsColor = "text-white";
+  if (selected === "home") {
+    homeColor = "text-green-400";
+  } else if (selected === "products") {
+    productsColor = "text-green-400";
+  } else if (selected === "about") {
+    aboutColor = "text-green-400";
+  } else if (selected === "contact") {
+    contactColor = "text-green-400";
   }
 
   // Added CSS for hovering over the links
   const linkTextCSS =
-    "hover:text-green-300 transition transform hover:-translate-y-0.5 text-xl";
+    "hover:text-green-200 transition transform hover:-translate-y-0.5 text-xl";
 
   // CSS for each link
   const linkCSS = "sm:m-5 m-1.5";
@@ -29,19 +32,19 @@ const Header = ({ selected }) => {
 
       <div className="flex h-16 flex-row items-center justify-center md:w-full">
         <Link className={linkCSS} to="/">
-          <p className={linkTextCSS}>Home</p>
+          <p className={`${linkTextCSS} ${homeColor}`}>Home</p>
         </Link>
 
         <Link className={linkCSS} to="/products">
-          <p className={linkTextCSS}>Products</p>
+          <p className={`${linkTextCSS} ${productsColor}`}>Products</p>
         </Link>
 
         <Link className={linkCSS} to="/about">
-          <p className={linkTextCSS}>About</p>
+          <p className={`${linkTextCSS} ${aboutColor}`}>About</p>
         </Link>
 
         <Link className={linkCSS} to="/contact">
-          <p className={linkTextCSS}>Contact</p>
+          <p className={`${linkTextCSS} ${contactColor}`}>Contact</p>
         </Link>
       </div>
 
