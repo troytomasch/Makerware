@@ -15,14 +15,14 @@ const Contact = () => {
       <Header selected={"contact"} />
 
       <div className="flex items-center justify-center gap-8">
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap">
           <div className="max-w-xl sm:max-w-screen-md m-8">
             <p className="text-6xl mb-6 font-bold">Get in touch</p>
             <p className="text-xl my-4">
               Reach out to me through my email: jtomasch@udel.edu
             </p>
           </div>
-          <div className="max-w-xl">
+          <div className="max-w-md">
             <img
               src={image}
               className="border-solid border-white rounded-md border-2 m-8 h-auto w-auto"

@@ -15,7 +15,7 @@ const About = () => {
       <Header selected={"about"} />
 
       <div className="flex items-center justify-center gap-8">
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap">
           <div className="max-w-xl m-8">
             <p className="text-6xl mb-6 font-bold">Jenna Tomasch</p>
             <p className="text-xl my-12">
@@ -30,7 +30,7 @@ const About = () => {
               (pictured).
             </p>
           </div>
-          <div className="max-w-xl">
+          <div className="max-w-md">
             <img
               src={image}
               className="border-solid border-white rounded-md border-2 m-8 h-auto w-auto"
