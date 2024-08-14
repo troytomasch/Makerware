@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 
-import image from "../assets/pic12.png";
+import image from "../assets/pic12.jpg";
 import Footer from "../components/Footer";
 
 // Component for the contact page
@@ -15,11 +15,11 @@ const Contact = () => {
       <Header selected={"contact"} />
 
       <div className="flex items-center justify-center gap-8">
-        <div className="flex flex-row flex-wrap">
-          <div className="max-w-xl sm:max-w-screen-md m-8">
-            <p className="text-6xl mb-6 font-bold">Get in touch</p>
+        <div className="flex flex-col items-center flex-wrap">
+          <div className="flex flex-col items-center max-w-xl sm:max-w-screen-md m-2">
+            <p className="text-6xl mb-4 font-bold">Get in touch</p>
             <p className="text-xl my-4">
-              Reach out to me through my email: jtomasch@udel.edu
+              Reach out to me through my email: makerwearco@gmail.com
             </p>
           </div>
           <div className="max-w-md">

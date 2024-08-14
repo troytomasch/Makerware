@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="h-0 border-2 w-full rounded-sm m-2 border-green-100"></div>
+      <div className="h-0 border-2 w-full rounded-sm m-2 border-makerwear-blue"></div>
       <div>
         <p>© 2023 by Maker Wear. All Rights Reserved. Powered by Maker Wear</p>
       </div>
