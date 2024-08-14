@@ -10,18 +10,18 @@ const Header = ({ selected }) => {
   let contactColor = null;
 
   if (selected === "home") {
-    homeColor = "text-green-400";
+    homeColor = "text-makerwear-blue";
   } else if (selected === "products") {
-    productsColor = "text-green-400";
+    productsColor = "text-makerwear-blue";
   } else if (selected === "about") {
-    aboutColor = "text-green-400";
+    aboutColor = "text-makerwear-blue";
   } else if (selected === "contact") {
-    contactColor = "text-green-400";
+    contactColor = "text-makerwear-blue";
   }
 
   // Added CSS for hovering over the links
   const linkTextCSS =
-    "hover:text-green-200 transition transform hover:-translate-y-0.5 text-xl";
+    "hover:text-makerwear-bright transition transform hover:-translate-y-0.5 text-xl";
 
   // CSS for each link
   const linkCSS = "sm:m-5 m-1.5";
@@ -48,7 +48,7 @@ const Header = ({ selected }) => {
         </Link>
       </div>
 
-      <div className="h-0 border-2 w-full rounded-sm m-2 border-green-100"></div>
+      <div className="h-0 border-2 w-full rounded-sm m-2 border-makerwear-blue"></div>
     </div>
   );
 };

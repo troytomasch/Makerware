@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 
-import image from "../assets/pic1.png";
+import image from "../assets/pic1.jpg";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -35,7 +35,7 @@ const Home = () => {
               wardrobe with Maker Wear.
             </p>
             <Link to={"/products"}>
-              <button className="border-4 rounded-lg p-4 text-lg border-green-200 text-green-700">
+              <button className="border-4 rounded-lg p-4 text-lg border-makerwear-blue text-makerwear-blue">
                 Explore our collection
               </button>
             </Link>
