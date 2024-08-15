@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import image from "../assets/pic1.jpg";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { homePageString } from "../strings";
 
 // Component for the home page
 const Home = () => {
@@ -22,18 +23,7 @@ const Home = () => {
               Discover Unique Style at Maker Wear
             </p>
             <p className="text-3xl my-6">Explore our exclusive collection</p>
-            <p className="text-xl my-12">
-              At Maker Wear, we are passionate about creating a unique fashion
-              experience. Our carefully curated collection showcases the latest
-              trends and timeless classics, allowing you to express your
-              individuality through style. We take pride in offering
-              high-quality clothing that is both fashionable and comfortable.
-              Our team is dedicated to providing personalized service to help
-              you find the perfect pieces for any occasion. Whether you're
-              looking for everyday essentials or statement pieces, we have
-              something for everyone. Embrace your style and elevate your
-              wardrobe with Maker Wear.
-            </p>
+            <p className="text-xl my-12">{homePageString}</p>
             <Link to={"/products"}>
               <button className="border-4 rounded-lg p-4 text-lg border-makerwear-blue text-makerwear-blue">
                 Explore our collection

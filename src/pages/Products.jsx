@@ -36,7 +36,7 @@ const Products = () => {
                   <li className="text-lg">{bullet}</li>
                 ))}
               </ul>
-              <div className="my-8 flex items-center justify-center align-middle border-4 rounded-lg p-4 text-xl border-blue-100 text-white h-20 bg-makerwear-blue">
+              <div className="my-8 flex items-center justify-center align-middle border-4 rounded-lg p-4 text-xl border-makerwear-bright text-white h-20 bg-makerwear-blue">
                 <a
                   className=""
                   href="https://buy.stripe.com/bIYcOYayVaXZ7m03cd"
