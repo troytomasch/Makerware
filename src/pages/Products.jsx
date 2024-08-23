@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 import Header from "../components/Header";
 
-import { makerpantsFeature } from "../strings";
+import {
+  clickHereToPurchaseString,
+  makerpantsFeature,
+  makerpantsFeatureString,
+} from "../strings";
 import image from "../assets/pic9.jpg";
 import Footer from "../components/Footer";
 
@@ -21,15 +25,7 @@ const Products = () => {
         <div className="flex flex-row flex-wrap">
           <div className="max-w-xl m-8">
             <p className="text-6xl mb-6 font-bold">Maker Pants</p>
-            <p className="text-xl my-4">
-              The Maker Pants are a pair of one-size-fits-most adjustable
-              overalls that can be worn overtop of clothing and put on without
-              taking off your shoes. They are meant to protect people and their
-              clothing in messy or unsafe situations. Maker Pants are great for
-              painting, wheel throwing, woodworking, gardening, and more! They
-              come in short, medium, and tall height variations. They are high
-              quality and hand made in the US. Maker Pants feature:
-            </p>
+            <p className="text-xl my-4">{makerpantsFeatureString}</p>
             <div className="flex flex-row items-center align-middle justify-center flex-wrap">
               <ul className="list-disc mx-8">
                 {makerpantsFeature.map((bullet) => (
@@ -42,7 +38,7 @@ const Products = () => {
                   href="https://buy.stripe.com/bIYcOYayVaXZ7m03cd"
                   target="_blank"
                 >
-                  Click here to purchase!
+                  {clickHereToPurchaseString}
                 </a>
               </div>
             </div>
