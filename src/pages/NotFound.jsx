@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 // Not found page 404
 const NotFound = () => {
   useEffect(() => {
-    document.title = "Not found | Maker wear";
+    document.title = "Not found | Maker Wear";
   }, []);
 
   return (
