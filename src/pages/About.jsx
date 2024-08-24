@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 import image from "../assets/prom.png";
 import Footer from "../components/Footer";
-import { aboutString } from "../strings";
+import { aboutString, aboutTitle } from "../strings";
 
 // Component for the about page
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-row flex-wrap">
           <div className="max-w-xl m-8">
-            <p className="text-6xl mb-6 font-bold">Jenna Tomasch</p>
+            <p className="text-6xl mb-6 font-bold">{aboutTitle}</p>
             <p className="text-xl my-12">{aboutString}</p>
           </div>
           <div className="max-w-md">

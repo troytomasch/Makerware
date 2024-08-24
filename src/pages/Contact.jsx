@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 import image from "../assets/pic12.jpg";
 import Footer from "../components/Footer";
-import { contactMeString } from "../strings";
+import { contactMeString, emailString, getInTouchTitle } from "../strings";
 
 // Component for the contact page
 const Contact = () => {
@@ -18,14 +18,14 @@ const Contact = () => {
       <div className="flex items-center justify-center gap-8">
         <div className="flex flex-col items-center flex-wrap">
           <div className="flex flex-col items-center max-w-xl sm:max-w-screen-md m-2">
-            <p className="text-6xl mb-4 font-bold">Get in touch</p>
+            <p className="text-6xl mb-4 font-bold">{getInTouchTitle}</p>
             <p className="text-xl my-4">
               {contactMeString}{" "}
               <a
-                href="mailto: makerwearco@gmail.com"
+                href={`mailto: ${emailString}`}
                 className="font-bold text-makerwear-blue"
               >
-                makerwearco@gmail.com
+                {emailString}
               </a>
               .
             </p>

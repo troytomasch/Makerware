@@ -28,6 +28,12 @@ const clickHereToPurchaseString = "Click here to purchase!";
 const aboutString =
   "Jenna Tomasch is the creator of Maker Wear. She is a senior Fashion Design and Product innovation major at the University of Delaware where she focuses on sustainability, functional design, and entrepreneurship. She has been a maker her whole life, growing up she always loved creating things. Now she works at a makerspace on UD's campus where she works with 3D printers, laser cutters, woodshop, and sewing. She has been sewing for 7 years and has created anything from Maker Pants to her senior prom dress (pictured).";
 
+const emailString = "makerwearco@gmail.com";
+
+const getInTouchTitle = "Get in touch";
+
+const aboutTitle = "Jenna Tomasch";
+
 export {
   makerpantsFeature,
   homePageString,
@@ -38,4 +44,7 @@ export {
   makerpantsFeatureString,
   clickHereToPurchaseString,
   aboutString,
+  aboutTitle,
+  emailString,
+  getInTouchTitle,
 };
