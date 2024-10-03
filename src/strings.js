@@ -21,9 +21,9 @@ const homePageSubtitleString =
 const homePageButtonString = "Explore our collection";
 
 const makerpantsFeatureString =
-  "The Maker Pants are a pair of one-size-fits-most adjustable overalls that can be worn overtop of clothing and put on without taking off your shoes. They are meant to protect people and their clothing in messy or unsafe situations. Maker Pants are great for painting, wheel throwing, woodworking, gardening, and more! They come in short, medium, and tall height variations. They are high quality and hand made in the US. Maker Pants feature:";
+  "The Maker Pants are a pair of one-size-fits-most adjustable overalls that can be worn overtop of clothing and put on without taking off your shoes. They are meant to protect people and their clothing in messy or unsafe situations. Maker Pants are great for painting, wheel throwing, woodworking, gardening, and more! They fit up to size XL. They are high quality and hand made in the US. Maker Pants feature:";
 
-const clickHereToPurchaseString = "Click here to purchase!";
+const clickHereToPurchaseString = "Click here to preorder!";
 
 const aboutString =
   "Jenna Tomasch is the creator of Maker Wear. She is a senior Fashion Design and Product innovation major at the University of Delaware where she focuses on sustainability, functional design, and entrepreneurship. She has been a maker her whole life, growing up she always loved creating things. Now she works at a makerspace on UD's campus where she works with 3D printers, laser cutters, woodshop, and sewing. She has been sewing for 7 years and has created anything from Maker Pants to her senior prom dress (pictured).";
