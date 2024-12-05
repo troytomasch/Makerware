@@ -35,7 +35,7 @@ const Products = () => {
               <div className="my-8 flex items-center justify-center align-middle border-4 rounded-lg p-4 text-xl border-makerwear-bright text-white h-20 bg-makerwear-blue">
                 <a
                   className=""
-                  href="https://buy.stripe.com/bIYcOYayVaXZ7m03cd"
+                  href="https://buy.stripe.com/7sI3eo4ax6HJ49O8wz"
                   target="_blank"
                 >
                   {clickHereToPurchaseString}
